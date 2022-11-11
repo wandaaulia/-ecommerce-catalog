@@ -1,0 +1,266 @@
+
+.loader {
+  margin-top: 200px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.containerImgNotShow {
+            height: 420px;
+    width:1028px;
+      display: flex;
+      margin-top: 60px;
+      position: absolute;
+      left: 61px;
+}
+
+.textNoProduct {
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+}
+
+.btnNoProduct {
+    font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+border: 3px solid #000000;
+border-radius: 4px;
+width: 465px;
+height: 42px;
+background: #FFFFFF;
+color: #3F3F3F;
+margin-top: 13px;
+z-index: 10000000;
+cursor: pointer;
+}
+
+.bgColorImgNoProduct {
+    background-color: #D8D7D7;
+}
+
+.cardNoProduct {
+        background-color: white;
+    width: 1034px;
+    height: 580px;
+    filter:drop-shadow(2px 4px 21px rgba(0, 0, 0, 0.2));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 56px 46px 56px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.bgImgFemale {
+    background-color: #FDE2FF;
+}
+.colorFemale {
+    color : #720060;
+}
+
+.bgColorFemale {
+    background-color: #720060;
+}
+
+.borderColorFemale {
+    border-color:  #720060;
+}
+
+.bgImgMale {
+    background-color: #D6E6FF;
+}
+.colorMale {
+    color : #002772;
+}
+
+.bgColorMale {
+    background-color: #002772;
+}
+
+.borderColorMale {
+    border-color:  #002772;
+}
+
+
+.btnNext {
+width: 259px;
+height: 42px;
+background-color: #FFFFFF;
+border-width: 3px;
+border-style: solid;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+cursor: pointer;
+}
+
+.btnBuy {
+width: 259px;
+height: 42px;
+border-radius: 4px;
+border: none;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+color : #FFFFFF;
+margin-right: 19px;
+
+}
+.btnClass {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.priceClass {
+    font-weight: 600;
+font-size: 28px;
+line-height: 34px;
+margin-top: 15.5px;
+}
+.descProduct {
+    width: 517px;
+    padding-top: 26px;
+    padding-bottom: 62px;
+  font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+    color : #1E1E1E;
+}
+.productSection {
+      font-weight:400;
+    font-size: 18px;
+    line-height: 21.78px;
+    color : #3F3F3F;
+}
+.titleProduct {
+    font-weight:600;
+    font-size: 28px;
+    line-height: 33.89px;
+}
+
+.lineGrey {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 100%;
+    margin-top: 11px;
+}
+.valRating {
+    margin-right: 5px;
+           font-weight:400;
+    font-size: 18px;
+    line-height: 21.78px;
+    color : #3F3F3F;
+}
+.ratingClass{
+     display: flex;
+    flex-direction: row;
+
+}
+.categoryClass {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.star-rating {
+       width: 18px;
+    height: 18px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    margin: 0px 1px;
+}
+
+.star-rating-full {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    margin: 0px 1px;
+}
+.contentProduct {
+
+    width: 548px;
+    margin-left: 77px;
+}
+
+.containCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+      padding: 60px 0px;
+}
+
+.containerCard {
+      position: absolute;
+     top:0px;
+     bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+.cardProduct {
+    background-color: white;
+    width: 1034px;
+    height: fit-content;
+    filter:drop-shadow(2px 4px 21px rgba(0, 0, 0, 0.2));
+    display: flex;
+    flex-direction: row;
+    padding: 50px 56px 46px 56px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.containerProduct {
+ width: 100%;
+ min-height: 100vh;
+  display: flex;
+ background-color: white;
+}
+.containerProductImg {
+         height: 407px;
+    width: 305.81px;
+      display: flex;
+      margin-top: 33px;
+}
+.containerImg {
+    height: 458px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right:0;
+   width: 100%;
+    overflow-x:hidden;
+}
+
+.color-female {
+    background-color: #FDE2FF;
+}
+
+
+
+.imgClass{
+    position: absolute;
+    right: 6px;
+    height: 100%;
+    object-fit: cover;
+       width: 1435.21px;
+}
+
+.imgProductClass {
+    height:100%;
+     width: 100%;
+
+}

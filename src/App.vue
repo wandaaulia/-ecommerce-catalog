@@ -1,30 +1,34 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+ <PageSection> </PageSection>
 </template>
 
+<script>
+import PageSection  from '@/views/PageSection.vue';
+
+export default{
+  name: 'App',
+  components: {
+    PageSection
+  }
+
+}
+</script>
+
+
+
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+ @import '@/style/page.css';
+ 
+  * {
+    margin: 0;
+    padding: 0;
+font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    font-style: normal;
 }
 
-nav {
-  padding: 30px;
-}
 
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
-}
 </style>
