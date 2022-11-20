@@ -2,11 +2,13 @@
 "food" : [
 {
 "id" : 1,
-"title" : "chicken"
+"title" : "chicken",
+"imgUrl" : "./public/assets/food.png"
 },
 {
 "id" : 2,
-"title" : "Firechicken"
+"title" : "Firechicken",
+"imgUrl" : "./public/assets/food.png"
 }
 ]
 }
