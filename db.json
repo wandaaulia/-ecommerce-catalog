@@ -3,12 +3,12 @@
 {
 "id" : 1,
 "title" : "chicken",
-"imgUrl" : "./public/assets/food.png"
+"imgUrl" : "store/img1_sdufqp"
 },
 {
 "id" : 2,
 "title" : "Firechicken",
-"imgUrl" : "./public/assets/food.png"
+"imgUrl" : "store/img2_o1o3ip"
 }
 ]
 }
