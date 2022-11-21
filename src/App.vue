@@ -1,14 +1,14 @@
 <template>
- <PageSection> </PageSection>
+ <FetchDataa> </FetchDataa>
 </template>
 
 <script>
-import PageSection  from '@/views/PageSection.vue';
+import FetchDataa from '@/views/FetchDataa.vue'
 
 export default{
   name: 'App',
   components: {
-    PageSection
+    FetchDataa
   }
 
 }

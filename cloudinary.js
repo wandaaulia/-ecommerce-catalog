@@ -2,6 +2,6 @@ import Vue from 'vue';
 import Cloudinary, { CldImage }  from 'cloudinary-vue';
 
 Vue.use(Cloudinary, {
-    configuration: { cloudName: 'project-ecommerce' },
+    configuration: { cloudName: 'dyyxzvhgr' },
     components: [ CldImage ]
 })
